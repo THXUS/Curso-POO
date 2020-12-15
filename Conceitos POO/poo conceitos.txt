@@ -28,6 +28,26 @@ DEDUZIR AS CARACTERÍSTICAS DE UMA CLASSE
 
 PILARES DO POO (VEREMOS DPS)
 
+EHP
+
+E - ENCAPSULAMENTO
+    temos o conceito de encapsular que é:
+        ocultar partes independentes da implementação, pemitindo construir partes invisíveis ao mundo exterior
+        conseguimos conversar com objetos, chamando elas de mensagem!!!! 
+        o canal de comunicação externo que esse objeto encapsulado tem é chamado de interface
+    benefícios
+        Tornar mudanças invisíveis
+        Faciliar reutilização
+        Reduzir efeitos colaterais
+    interfaces iram carregar os métodos que a classe irá usar
+    todos os atributos são privados quando estamos trabalhando com encapsulamento
+    interfaces geralmente ficam em uma arquivo separado e são ligados com a classe deles por uma seta quando ilustramos
+    no UML
+H - HERANÇA
+P - POLIMORFISMO
+
+
+
 
 VISIBILIDADE DE OBJETOS
 =======================
