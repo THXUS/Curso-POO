@@ -63,6 +63,25 @@ H - HERANÇA
     ->  Método final
             Não pode ser sobrescrito por suas sub-classes. Obrigatóriamente herdado!!!!
 P - POLIMORFISMO
+    vem de poli (muitas) morfo(formas)
+    Permite que o mesmo nome perfome vários comportamentos diferentes!!!!
+    Assinatura do método
+        Quantidade e os tipos dos parâmetros dos métodos
+        EX:
+            1) public float calcMedia(float r1, float r2);
+            2) public int calcMedia(float r1, float r2);
+            3) public float calcMedia(int bim, float r1, float r2);
+            4) public float calcMedia(float r1, float r2, float r3, flat r4);
+
+        Os métodos 1) e 2) possuem a mesma assinatura.
+        O método 3) não possui a mesma assinatura de 1) pois têm um paramêtro a mais 
+        O método 4) não possui a mesma assinatura de 1), 2), 3), pois têm parâmetros a mais que 1) e 3) e tem tipos diferentes
+    Tipos de POLIMORFISMO
+        1) Sobreposição
+            
+        2) Sobrecarga
+    
+
 
 
 
