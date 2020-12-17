@@ -16,6 +16,7 @@ public class App {
         l1.abrir();
         l1.folhear(8);
         p1.fazerAniver();
+        l1.folhear(493);
         l1.detalhes();
     }
 }
