@@ -1,3 +1,5 @@
+package classes;
+
 public class Pessoa {
 
     private String nome;
@@ -29,9 +31,9 @@ public class Pessoa {
     }
 
     public Pessoa(String nome, int idade, String sexo) {
-        this.nome = nome;
-        this.idade = idade;
-        this.sexo = sexo;
+        this.setNome(nome);
+        this.setIdade(idade);
+        this.setSexo(sexo);
     }
 
     public void fazerAniver() {
