@@ -44,6 +44,10 @@ E - ENCAPSULAMENTO
     interfaces geralmente ficam em uma arquivo separado e são ligados com a classe deles por uma seta quando ilustramos
     no UML
 H - HERANÇA
+    Permite basear uma nova classe na definição de uma outra classe já existente.
+    A herança será aplicada tanto para CARACTERÍSTICAS quanto para os commportamentos.
+    EX:
+        se a classe pai mãe tiver o método "Esguichar água" a classe filha também a terá!!!
 P - POLIMORFISMO
 
 
