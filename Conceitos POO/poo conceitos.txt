@@ -78,6 +78,7 @@ P - POLIMORFISMO
         O método 4) não possui a mesma assinatura de 1), 2), 3), pois têm parâmetros a mais que 1) e 3) e tem tipos diferentes
     Tipos de POLIMORFISMO
         1) Sobreposição
+            Acontece quando substituímos um método de uma superclasse na sua subclasse, usando a mesma assinatura
             
         2) Sobrecarga
     
