@@ -48,6 +48,20 @@ H - HERANÇA
     A herança será aplicada tanto para CARACTERÍSTICAS quanto para os commportamentos.
     EX:
         se a classe pai mãe tiver o método "Esguichar água" a classe filha também a terá!!!
+    quando um temos uma classe filha que não implementa mais nada além do que ela herda temos uma herança chamada HERANÇA POBRE
+    herança de implementação são todas as implementações que um filho herda (geralmente utilizado para implementar classas abs).
+    herança para diferença é uma herança que herda coisa da mãe porém implementa coisas novas.
+    
+    ABSTRATO E FINAL
+    temos os seguintes conceitos
+    ->  Classe abstrata
+            Não pode ser instanciada, só pode servir como progenitoria
+    ->  Método abstrato
+            Declarado mas não implementado na progenitora
+    ->  Classe final
+            Não pode ser herdada por outra classe
+    ->  Método final
+            Não pode ser sobrescrito por suas sub-classes. Obrigatóriamente herdado!!!!
 P - POLIMORFISMO
 
 
