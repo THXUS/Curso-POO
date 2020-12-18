@@ -66,7 +66,7 @@ P - POLIMORFISMO
     vem de poli (muitas) morfo(formas)
     Permite que o mesmo nome perfome vários comportamentos diferentes!!!!
     Assinatura do método
-        Quantidade e os tipos dos parâmetros dos métodos
+        Nome, quantidade e os tipos dos parâmetros dos métodos
         EX:
             1) public float calcMedia(float r1, float r2);
             2) public int calcMedia(float r1, float r2);
