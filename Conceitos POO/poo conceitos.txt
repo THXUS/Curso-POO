@@ -78,14 +78,17 @@ P - POLIMORFISMO
         O método 4) não possui a mesma assinatura de 1), 2), 3), pois têm parâmetros a mais que 1) e 3) e tem tipos diferentes
     Tipos de POLIMORFISMO
         1) Sobreposição
-            Acontece quando substituímos um método de uma superclasse na sua subclasse, usando a mesma assinatura
-            
+            *Acontece quando substituímos um método de uma superclasse na sua subclasse, usando a mesma assinatura
+            *Mesma assinatura em classes diferentes
         2) Sobrecarga
-    
-
-
-
-
+            *Assinaturas diferentes na mesma classe usando o mesmo nome!!!!!
+            EX:
+                public class Cachorro extends Lobo{
+                    public void reagir(String frase) {}
+                    public void reagir(int hora, int minuto) {}
+                    public void reagir(Boolean dono) {}
+                    public void reagir(float peso, int idade) {}
+                }
 
 VISIBILIDADE DE OBJETOS
 =======================
