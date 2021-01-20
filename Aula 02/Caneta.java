@@ -5,7 +5,7 @@ public class Caneta {
     int carga;
     boolean tampada;
 
-
+    //teste a
     void rabiscar(){
         if(this.tampada)
         {
